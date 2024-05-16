@@ -1,3 +1,3 @@
 # react_jy
 
-react Todo list 파일
+React Todo list 과제 제출 
