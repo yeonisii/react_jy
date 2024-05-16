@@ -1,0 +1,91 @@
+.containter {
+  width: 1200px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+h2 {
+  margin-left: 20px;
+  margin-top: 3rem;
+  font-size: 28px;
+}
+
+.done {
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+}
+
+.form {
+  margin-top: 10px;
+  background-color: #ffeddb;
+}
+
+li {
+  margin-top: 46.1px;
+  margin-left: 30px;
+}
+
+button {
+  border: none;
+  margin-top: 20px;
+  width: 45px;
+  height: 29px;
+  background-color: #edcdbb;
+}
+
+.contents {
+  margin-left: 15px;
+  width: 200px;
+  height: 25px;
+  border-style: none;
+}
+
+.sub {
+  margin-left: 15px;
+}
+
+.comp {
+  margin-left: 10px;
+}
+
+.can {
+  margin-left: 10px;
+}
+
+.title {
+  width: 200px;
+  height: 25px;
+  border-style: none;
+  margin-bottom: 15px;
+  margin-left: 46rem;
+}
+
+.todocont {
+  margin-top: 25px;
+}
+.todotitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.del {
+  margin-top: 30px;
+}
