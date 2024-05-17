@@ -10,6 +10,8 @@ function App() {
   const [inputTitle, setinputTitle] = useState("");
   const [inputContent, setinputContent] = useState("");
 
+  //유효성 검사 상태 지정
+
   // todo 추가
   const handleAddTodo = () => {
     if (inputTitle.trim() !== "" && inputContent.trim() !== "") {
@@ -105,7 +107,7 @@ function App() {
           ))}
         </ul>
         <h2 className="done">{activeTodos.length > 0 ? "Done" : "Done"} 🎀</h2>
-        <ul>
+        <ul className="todolist">
           {completeTodos.map((todo) => (
             <li key={todo.id}>
               <div>
